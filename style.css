@@ -1,0 +1,188 @@
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+
+.clear{
+  clear: both;
+}
+
+body{
+  font-family: 'News Cycle', sans-serif;
+  font-size: 17px;
+  text-align: center;
+}
+
+header{
+  background-color: #eeeeee;
+  height: 100px;
+}
+
+nav{
+  width: 1000px;
+  margin: auto;
+  height: inherit;
+}
+
+h1{
+  font-size: 55px;
+  float: left;
+}
+
+nav ul{
+  list-style-type:none;
+  float: right;
+  height: inherit;
+  padding-top: 37px;
+}
+
+nav ul li{
+  float: left;
+  margin-left: 40px;
+}
+
+li a{
+  text-decoration: none;
+  color:#656565;
+}
+
+li a:hover{
+  color:#27ae61;
+}
+
+#section1{
+  background-color: #27ae61;
+  background-image: url(banner.png);
+  background-size: cover;
+  margin: auto;
+}
+
+#section1 article{
+  width: 1000px;
+  margin: auto;
+  height: inherit;
+}
+
+.imageFilles{
+  border-radius: 50%;
+  margin-right: 40px;
+  width: 160px;
+  height: 160px;
+}
+
+#section1 h2{
+  margin-top: 90px;
+}
+
+#section2{
+  background-color: #eeeeee;
+  margin: auto;
+}
+
+#section2 article{
+  width: 1000px;
+  margin: auto;
+  height: inherit;
+}
+
+#section3{
+  background-color: #27ae61;
+  margin: auto;
+}
+
+#section3 article{
+  width: 1000px;
+  margin: auto;
+  height: inherit;
+}
+
+p a{
+  color:rgba(255,255,255,.8);
+}
+
+footer{
+  background-color: #eeeeee;
+  height: 180px;;
+  margin: auto;
+}
+
+footer div{
+  width: 1000px;
+  margin: auto;
+  height: inherit;
+  padding-top: 90px;
+}
+
+h2{
+  font-size: 55px;
+}
+
+section{
+  padding: 120px 0;
+}
+
+.soustitres{
+  font-size: 22px;
+  color:#656565;
+}
+
+#section1 .paragraphes, #section3 .paragraphes{
+  color:rgba(255,255,255,.8);
+}
+
+#section1 h2, #section3 h2{
+  color:rgba(255,255,255,.8);
+}
+
+nav ul, #section2 .paragraphes, footer{
+  color: #656565;
+}
+
+.paragraphes{
+  margin-top: 55px;
+}
+
+.bouton{
+  width: 265px;
+  height: 70px;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: white;
+  padding-top: 15px;
+}
+
+.bouton a{
+  font-size: 22px;
+  text-decoration: none;
+}
+
+#bouton1{
+  background-color: #2b3f48;
+  margin-top: 75px;
+}
+
+#bouton1 a{
+  color:white;
+}
+
+#bouton2{
+  background-color: #27ae61;
+  margin-top: 60px;
+}
+
+#bouton2 a{
+  color:white;
+}
+
+#bouton3{
+  background-color: white;
+  margin-top: 75px;
+}
+
+#bouton3 a{
+  color:#27ae61;
+}

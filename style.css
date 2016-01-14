@@ -13,23 +13,23 @@
 
 body{
   font-family: 'News Cycle', sans-serif;
-  font-size: 17px;
+  font-size: 1em;
   text-align: center;
 }
 
 header{
   background-color: #eeeeee;
-  height: 100px;
+  /*height: 100px;*/
 }
 
 nav{
-  width: 1000px;
+  max-width: 1000px;
   margin: auto;
   height: inherit;
 }
 
 h1{
-  font-size: 55px;
+  font-size: 3.666666em;
   float: left;
 }
 
@@ -37,12 +37,12 @@ nav ul{
   list-style-type:none;
   float: right;
   height: inherit;
-  padding-top: 37px;
+  padding-top: 2.5em;
 }
 
 nav ul li{
   float: left;
-  margin-left: 40px;
+  margin-left: 2.666666em;
 }
 
 li a{
@@ -62,20 +62,20 @@ li a:hover{
 }
 
 #section1 article{
-  width: 1000px;
+  max-width: 1000px;
   margin: auto;
   height: inherit;
 }
 
 .imageFilles{
   border-radius: 50%;
-  margin-right: 40px;
+  margin-right: 2.666666em;
   width: 160px;
   height: 160px;
 }
 
 #section1 h2{
-  margin-top: 90px;
+  margin-top: 3em;
 }
 
 #section2{
@@ -84,7 +84,7 @@ li a:hover{
 }
 
 #section2 article{
-  width: 1000px;
+  max-width: 1000px;
   margin: auto;
   height: inherit;
 }
@@ -95,7 +95,7 @@ li a:hover{
 }
 
 #section3 article{
-  width: 1000px;
+  max-width: 1000px;
   margin: auto;
   height: inherit;
 }
@@ -106,27 +106,27 @@ p a{
 
 footer{
   background-color: #eeeeee;
-  height: 180px;;
+  height: 12em;;
   margin: auto;
 }
 
 footer div{
-  width: 1000px;
+  max-width: 1000px;
   margin: auto;
   height: inherit;
-  padding-top: 90px;
+  padding-top: 6em;
 }
 
 h2{
-  font-size: 55px;
+  font-size: 3.666666em;
 }
 
 section{
-  padding: 120px 0;
+  padding: 8em 0;
 }
 
 .soustitres{
-  font-size: 22px;
+  font-size: 1.5em;
   color:#656565;
 }
 
@@ -143,26 +143,26 @@ nav ul, #section2 .paragraphes, footer{
 }
 
 .paragraphes{
-  margin-top: 55px;
+  margin-top: 3.66666em;
 }
 
 .bouton{
-  width: 265px;
-  height: 70px;
-  border-radius: 5px;
+  width: 17em;
+  height: 4.66666em;
+  border-radius: 0.33333em;
   display: inline-block;
   background-color: white;
-  padding-top: 15px;
+  padding-top: 1em;
 }
 
 .bouton a{
-  font-size: 22px;
+  font-size: 1.5em;
   text-decoration: none;
 }
 
 #bouton1{
   background-color: #2b3f48;
-  margin-top: 75px;
+  margin-top: 5em;
 }
 
 #bouton1 a{
@@ -171,7 +171,7 @@ nav ul, #section2 .paragraphes, footer{
 
 #bouton2{
   background-color: #27ae61;
-  margin-top: 60px;
+  margin-top: 4em;
 }
 
 #bouton2 a{
@@ -180,9 +180,31 @@ nav ul, #section2 .paragraphes, footer{
 
 #bouton3{
   background-color: white;
-  margin-top: 75px;
+  margin-top: 5em;
 }
 
 #bouton3 a{
   color:#27ae61;
+}
+
+@media (max-width:600px) {
+  .imageFilles{
+    /*width: 20%;
+    height: 20%;*/
+  }
+  #conteneurimages{
+    display: none;
+  }
+
+  #section1 h2{
+    margin-top: 1em;
+  }
+
+  h1, h2{
+    font-size: 2em;
+  }
+
+  nav ul{
+    display: none;
+  }
 }
